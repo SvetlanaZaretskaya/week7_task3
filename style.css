@@ -1,0 +1,46 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 8 version
+*/
+
+.container {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    -ms-grid-rows: 200px 5px 200px;
+    grid-template-rows: repeat(2, 200px);
+    grid-auto-rows: 200px;
+}
+
+.container__img1 {
+    background-image: url(./img/1.jpeg);
+    background-size: cover;
+}
+
+.container__img2 {
+    background-image: url(./img/2.jpg);
+    background-size: cover;
+}
+
+.container__img3 {
+    background-image: url(./img/3.jpeg);
+    background-size: cover;
+}
+
+.container__img4 {
+    background-image: url(./img/4.jpeg);
+    background-size: cover;
+}
+
+.container__img5 {
+    background-image: url(./img/5.jpeg);
+    background-size: cover;
+}
+
+.container__img6 {
+    background-image: url(./img/6.jpeg);
+    background-size: cover;
+}
